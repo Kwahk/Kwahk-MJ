@@ -1,0 +1,24 @@
+.red-color{
+    color: red;
+    size: 16PX;
+    text-align: center;
+}
+
+/* 클래스 선택자 */
+.blue-color{
+    color: blue;
+}
+
+/* 아이디 선택자 */
+#main-slogan{
+    font-weight: 900;
+}
+
+/* 태그 선택자 */
+span{
+    margin: 15px;
+}
+
+img{
+    display: block;
+}
