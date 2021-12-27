@@ -4,3 +4,6 @@
 - Ctrl + Spacebar : 폴더 경로 단축키
 - 태그.클래스이름 : 입력/ span.red-color, 출력/ <span class="red-color"></span>
 - 태그#아이디이름 : 입력/ p#main-slogan, 출력/ <p id="main-slogan"></p>
+- li{메뉴$}*3 : 출력/ <li>메뉴1</li>
+                     <li>메뉴2</li>
+                     <li>메뉴3</li>    * 이거 맞는지 확인하기!
