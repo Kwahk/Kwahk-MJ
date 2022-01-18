@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html {
+      font-size: 40px;
+    }
+    .box1 {
+      font-size: 24px;
+    }
+    .box2 {
+      font-size: 1em;
+      background-color: darksalmon;
+      padding: 2em;
+    }
+    .box3 {
+      font-size: 0.8em;
+      /* = 19.2px */
+      background-color: darkseagreen;
+      padding: 2em;
+      /* = 19.2px * 2 = 38.4px */
+    }
+    .box4 {
+      font-size: 1rem; /* 최상위의 영향을 받는다. 여기서는 html */
+    }
+  </style>
+</head>
+<body>
+  <div class="box1">안녕
+    <div class="box2">안녕
+      <div class="box3">안녕
+        <div class="box4">안녕</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
