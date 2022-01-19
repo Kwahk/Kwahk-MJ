@@ -17,18 +17,18 @@
     }
 
     @media screen and (max-width:767px) {
-      li {
+      .red {
         background-color: red;
       }
     }
     @media screen and (min-width:768px) and (max-width:959px) {
-      li {
-        background-color: green;
+      .yellow {
+        background-color: yellow;
       }
     }
     @media screen and (min-width:960px) {
-      li {
-        background-color: blue;
+      .green {
+        background-color: green;
       }
     }
 
@@ -43,7 +43,7 @@
       background-color: white;
       border-radius: 50px;
       margin: 50px;
-      box-shadow: 20px 20px 60px #dddddd, -20px -20px 60px white;
+      box-shadow: 5px 5px 12px #686868, -5px -5px 12px white;
     } 
 
     .신호등>li {
@@ -53,6 +53,11 @@
       border-radius: 50%;
       margin: 10px;
     }
+
+    li {
+      background-color: gray;
+    }
+
   </style>
 </head>
 <body>
@@ -61,9 +66,9 @@
   <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> -->
 
   <div class="신호등">
-    <li></li>
-    <li></li>
-    <li></li>
+    <li class="red"></li>
+    <li class="yellow"></li>
+    <li class="green"></li>
   </div>
 </body>
 </html>
