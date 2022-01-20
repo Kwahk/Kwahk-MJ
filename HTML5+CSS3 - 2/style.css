@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.nav>a>li {
+  text-align: center;
+  display: block;
+  width: 150px;
+}
+
+a {
+  list-style: none;
+  margin-left: 20px;
+  float: left;
+}
+
+p {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.main-img {
+  text-align: center;
+  object-fit: cover;
+}
+
+img {
+  width: 500px;
+  height: 395px;
+}
+
+header {
+  /* max-width: 1216px; */
+  margin: 0 auto;
+  height: 50px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  background-color: plum;
+}
+
+h1 {
+  float: left;
+  line-height: 30px;
+}
+
