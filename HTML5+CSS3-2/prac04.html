@@ -14,10 +14,10 @@
   div {
     width: 200px;
     height: 200px;
-    border: 1px solid;
+    border: 5px solid;
     float: left;
+    display: inline-block;
     text-align: center;
-    border-collapse: collapse;
   }
   
   img {
@@ -28,9 +28,13 @@
   }
   .box2 {
     background-color: rgb(195, 216, 230);
+    border-left: 5px; /* = left: -5px와 같음*/
   }
   .box3 {
     background-color: lightgray;
+    position: relative;
+    left: -5px;
+
   }
   p {
     font-size: 14px;
