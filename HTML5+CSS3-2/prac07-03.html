@@ -18,6 +18,9 @@
       line-height: 40px;
       margin: 10px auto;
     }
+    img {
+      display: block;
+    }
     li {
       list-style: none;
     }
@@ -39,6 +42,65 @@
       overflow: hidden;
       margin: 10px auto;
     }
+    .box {
+      margin: 10px auto;
+      width: 1600px;
+      /* height: 1060px; */
+      overflow: hidden;
+    }
+    .left {
+      float: left;
+    }
+    .right {
+      float: right;
+    }
+    .box1 {
+      width: 1600px;
+      overflow: hidden;
+      margin-top: 10px;
+    }
+    .box> .box1> .right> .b1-2{
+      width: 316px;
+      height: 160px;
+      margin-top: 10px;
+      box-sizing: border-box;
+      border: 4px solid black;
+      text-align: center;
+    }
+    .box> .box1> .right> .b1-2>span:first-child {
+      background-color: darkmagenta;
+      font-weight: 900;
+      line-height: 46px;
+      margin-top: 20px;
+      display: block;
+      color: white;
+    }
+    .box> .box1> .right> .b1-2>span:last-child {
+      font-size: 28px;
+      font-weight: 900;
+      letter-spacing: -2px;
+    }
+    .box2 {
+      width: 1600px;
+      overflow: hidden;
+      margin: 10px auto;
+    }
+    .b2-2 {
+      width: 784px;
+      height: 511px;
+      background-color: lightblue;
+    }
+    .box3 {
+      width:1600px;
+      overflow: hidden;
+      margin: 10px auto;
+    }
+
+    .box4 {
+      width:1600px;
+      overflow: hidden;
+      margin: 10px auto;
+    }
   </style>
 
 </head>
@@ -53,10 +115,57 @@
     <li><a href="#"><img src="../img/menu03.png" alt="">Custombox</a>
     </li>
     <li><a href="#"><img src="../img/menu04.png" alt="">Blog</a>
-    </li>
+    </li>+
     <li><a href="#"><img src="../img/menu05.png" alt="">Story</a>
     </li>
   </ul>
-  <div class="box1"></div>
+  <div class="box">
+
+    <div class="box1">
+      <div class="left">
+        <img src="../img/header01.jpg" alt="">
+      </div>
+      <div class="right">
+        <div class="b1-1">
+          <img src="../img/side01.jpg" alt="">
+        </div>
+        <div class="b1-2">
+          <span>DESIGN YOUR OWN SOCK</span>
+          <br>
+          <span>THE WORK SHOP</span>
+        </div>
+        <div class="b1-2">
+          <span>SELF SERVICE</span>
+          <br>
+          <span>ONLINE STORE</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="box2">
+      <div class="left">
+        <div class="b2-1"><img src="../img/banner_01.jpg" alt=""></div>
+        <div class="b2-2">
+          <iframe width="784" height="511" src="https://www.youtube.com/embed/ga8cfjMnilU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="right"><img src="../img/banner_02.jpg" alt=""></div>
+    </div>
+  </div>
+
+  <div class="box3">
+    <img src="../img/banner_03.jpg" alt="">
+    <img src="../img/banner_04.jpg" alt="">
+    <iframe width="1600" height="592" src="https://www.youtube.com/embed/ShMuqTUae4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+  </div>
+
+  <div class="box4">
+    <div class="left">
+      <img src="../img/banner_05.jpg" alt="">
+    </div>
+    <div class="right">
+      <iframe width="775" height="721" src="https://www.youtube.com/embed/HlBZr3UBRNc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
 </body>
 </html>
