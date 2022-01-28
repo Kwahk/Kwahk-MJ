@@ -1,0 +1,130 @@
+:root {
+  --margin-nomal : 16px;
+}
+
+body {
+
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 1600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+nav {
+  position: fixed;
+  height: 100%;
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Russo One' sens-serif;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+nav ul {
+  margin-left: var(--margin-nomal);
+}
+
+nav li {
+  margin-bottom: var(--margin-nomal);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.oitem {
+  font-size: 12px;
+  color: lime;
+  margin-left: 6px;
+}
+
+.search {
+  margin: var(--margin-nomal);
+}
+
+.search>* {
+  border: 1px solid darkgray;
+  display: block;
+  box-sizing: border-box;
+  float: left;
+}
+
+.search input {
+  background-color: gray;
+  width: 100px;
+  height: 24px;
+  display: block;
+}
+
+.search button {
+  background-color: black;
+  color: darkgray;
+  font-size: 8px;
+  height: 24px;
+  display: block;
+}
+
+.search input:focus {
+  background-color: rgb(84, 84, 121);
+  outline: none;
+}
+
+section {
+  width: 1400px;
+  margin-left: 200px;
+  background-color: sandybrown;
+}
+
+.banner {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.play {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 150px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+}
+
+.banner>img {
+  margin-top: var(--margin-nomal);
+  margin-bottom: var(--margin-nomal);
+}
+
+#photo {
+  margin: 0 auto;
+  margin-top: var(--margin-nomal);
+  width: 1072px;
+  height: 1100px;
+}
+
+#photo img {
+  display: block;
+  float: left;
+  margin-top: var(--margin-nomal);
+  margin-bottom: var(--margin-nomal);
+}
+
+#phpto img:nth-child(4n) {
+  margin-right: 0;
+}
