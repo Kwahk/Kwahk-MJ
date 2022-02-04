@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* 메인 화면 */
+header {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  top: 0;
+}
+
+body {
+  position: relative;
+  font-family: "AvenirLTPro-Heavy", 'sdg-m', sans-serif;
+}
+.logo {
+  display: block;
+  width: 112px;
+  position: absolute;
+  top: 30%;
+  left: 40px;
+}
+.innerimg {
+  min-height: 100%;
+  min-width: 100%;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.ff {
+  vertical-align: baseline;
+  text-align: center;
+  position: absolute;
+  margin-top: -36%;
+  margin-left: 38%;
+  font-weight: bold;
+  color: #fff;
+  font-size: 48pt;
+  letter-spacing: 0;
+  font-family: "AvenirLTPro-Heavy", 'sdg-b', sans-serif;
+  text-shadow: 1px 1px 2px rgb(0 0 0 / 40%);
+}
+
+/* 본문 화면 */
+.wrap {
+  padding: 0px 40px;
+}
+.box {
+  margin-top: 120px;
+  display: block;
+  text-align: center;
+}
+.font {
+  text-align: left;
+  margin-left: 25%;
+}
+.bt {
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: rgb(39, 39, 39);
+}
+.st {
+  color: gray;
+  font-size: 20px;
+}
+
+.bi {
+  display: inline-block;
+  margin: 50px 0px;
+  width: 800px;
+}
+
+/* 하단 화면 */
+.box1 {
+  width: 100%;
+  height: 444px;
+  text-align: center;
+  line-height: 1.5;
+}
+.text {
+  padding: 64px 0px 80px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #aaa;
+}
+.skyblue {
+  color: #0BB8FF;
+}
+#blue {
+  transform: skewX(-30deg) translate3d(0, 0, 0);
+  position: absolute;
+  width: 100%;
+  left: 70%;
+  bottom: 330px;
+  height: 100%;
+  background: rgba(0,184,255,1);
+  transform-origin: bottom left;
+}
+
+/* footer */
+.fff {
+  width: 100%;
+  height: 290px;
+  background-color: #28323c;
+  padding-top: 40px;
+}
+.icon {
+  margin-left: 365px;
+  margin-bottom: 16px;
+}
+.dtg {
+  text-align: center;
+}
+.dt {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.dd {
+  color: #c5c8c2;
+  float: left;
+  margin-left: 20px;
+}
+li {
+  list-style: none;
+  width: 490px;
+}
+
+.left {
+  margin-left: 365px;
+  float: left;
+}
+.detail {
+  color: rgb(130, 142, 151);
+  font-size: 14px;
+}
+.white {
+  color: white;
+  font-weight: bolder;
+}
+.underbar{
+  text-decoration: underline;
+  color: #c5c8c2;
+}
+.right {
+  color: rgb(130, 142, 151);
+  font-size: 14px;
+}
+address {
+  font-style: normal;
+}
